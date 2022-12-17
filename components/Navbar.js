@@ -43,7 +43,7 @@ function Navbar() {
 							</li>
 						</Link>
 					</ul>
-					<div onClick={handleNav} className='sm:hidden'>
+					<div onClick={handleNav} className='sm:hidden cursor-pointer'>
 						<AiOutlineMenu size={35} />
 					</div>
 				</div>
